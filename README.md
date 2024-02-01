@@ -1,7 +1,7 @@
 # odin-battleship
 Battleship game project for the odin project curriculum
 
-1. Begin your app by creating the Ship class/factory (your choice).
+## 1. Begin your app by creating the Ship class/factory (your choice).
 
     1. Your ‘ships’ will be objects that include their length, the number of times they’ve been hit and whether or not they’ve been sunk.
 
@@ -11,7 +11,7 @@ Battleship game project for the odin project curriculum
    
     4. isSunk() should be a function that calculates whether a ship is considered sunk based on its length and the number of hits it has received.
 
-2. Create Gameboard class/factory.
+## 2. Create Gameboard class/factory.
 
     1. Note that we have not yet created any User Interface. We should know our code is coming together by running the tests. You shouldn’t be relying on console.log or DOM methods to make sure your code is doing what you expect it to.
     
@@ -23,13 +23,13 @@ Battleship game project for the odin project curriculum
     
     5. Gameboards should be able to report whether or not all of their ships have been sunk.
    
-3. Create Player.
+## 3. Create Player.
    
    1. Players can take turns playing the game by attacking the enemy Gameboard.
    
    2. The game is played against the computer, so make the ‘computer’ capable of making random plays. The AI does not have to be smart, but it should know whether or not a given move is legal (i.e. it shouldn’t shoot the same coordinate twice).
 
-4. Create the main game loop and a module for DOM interaction.
+## 4. Create the main game loop and a module for DOM interaction.
    
    1. At this point it is appropriate to begin crafting your User Interface.
    
@@ -43,7 +43,7 @@ Battleship game project for the odin project curriculum
    
    5. Create conditions so that the game ends once one player’s ships have all been sunk. This function is appropriate for the Game module.
 
-5. Finish it up
+## 5. Finish it up
    
    1. Implement the system that allows players to place their ships. There are several options available for letting users place their ships. You can let them type coordinates for each ship, have a button to cycle through random placements, or investigate implementing drag and drop.
    
